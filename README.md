@@ -15,3 +15,14 @@ Stretch goal: Feel free to optionally add more stats such as os version, uptime,
 
 ## How to run ?
 
+```bash
+docker build -t server-stats .
+docker run --rm server-stats
+````
+
+or interactively
+
+```bash
+docker run -it --rm server-stats /bin/bash
+./server-stats.sh # Run this line multiple times if needed
+```
